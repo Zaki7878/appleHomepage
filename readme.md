@@ -1,0 +1,1 @@
+This repository contains a clone of the Apple homepage. The project aims to replicate the design and functionality of the official Apple website, providing a hands-on experience with front-end development using HTML, CSS,

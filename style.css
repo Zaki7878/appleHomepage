@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image:url(pexels-felix-mittermeier-325872.jpg);
+    background-color: rgba(0, 0, 0, 0.018);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100vw);
+    position: relative;
+    height: 100vh;
+}
+span img {
+    width: 50px;
+    height: 50px;
+}
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    /* border: 2px solid rebeccapurple; */
+    width: 60vw;
+}
+.navText{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    gap: 60px;
+}
+.dragdown{
+    margin-left: 240px;
+    cursor: pointer;
+}
+h3{
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+h3:hover{
+    text-decoration: underline;  
+}
+.section01{
+    color: white;
+    width: 70vw;
+    height: 40vh;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.detail{
+    color: white;
+    
+    width: 55vw;
+    height: 40vh;
+    
+ 
+}
+.iphone-available{
+    margin-top: 130px;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.leap{
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.section02{
+    color: white; 
+    width: 55vw;
+    height: 8vh;
+    display: flex;
+   justify-content: center;
+}
+.purchase{
+    color: white;
+    
+    width: 30vw;
+    height: 10vh;
+}
+.btn-buyNow{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+button{
+    color: white;
+    background-color: black;
+   border: 2px solid white;
+    border-radius:190px;
+    font-size: 21px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: white;
+    
+    color: black;
+}
+.section03{
+    
+    color: white;
+    width: 44vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+   justify-content: center;
+  
+
+}
+.about-phone{
+    font-size: 17px;
+}
+.sacreenSize{
+    margin-top:10px;
+}
